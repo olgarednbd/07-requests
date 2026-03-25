@@ -9,3 +9,4 @@ respons = requests.get("https://jsonplaceholder.typicode.com/posts", params=para
 
 respons_json = respons.json()
 pprint.pprint(respons_json)
+
